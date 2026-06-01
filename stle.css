@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    background:#fff5f7;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    overflow-x:hidden;
+}
+
+section{
+    min-height:100vh;
+    padding:60px 20px;
+}
+
+h1{
+    font-size:3rem;
+}
+
+h2{
+    color:#ff4d88;
+}
+
+p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+img{
+    width:250px;
+    max-width:90%;
+    border-radius:20px;
+    margin:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+video{
+    width:320px;
+    max-width:95%;
+    margin:20px;
+    border-radius:15px;
+}
+
+.flowers{
+    font-size:60px;
+    animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-10px);}
+    100%{transform:translateY(0);}
+}
+
+.reveal{
+    opacity:0;
+    transform:translateY(50px);
+    transition:1s;
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}
