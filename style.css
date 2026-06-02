@@ -33,12 +33,6 @@ img{
     box-shadow:0 5px 20px rgba(0,0,0,.15);
 }
 
-video{
-    width:320px;
-    max-width:95%;
-    margin:20px;
-    border-radius:15px;
-}
 
 .flowers{
     font-size:60px;
