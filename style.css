@@ -55,3 +55,28 @@ img{
     opacity:1;
     transform:translateY(0);
 }
+
+#login{
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    gap:15px;
+}
+
+#login input{
+    padding:12px;
+    border-radius:10px;
+}
+
+#login button{
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+}
