@@ -15,3 +15,22 @@ window.addEventListener("scroll", () => {
 });
 
 window.dispatchEvent(new Event("scroll"));
+
+function checkPassword(){
+
+    const password =
+    document.getElementById("password").value;
+
+    if(password === "lavender"){
+
+        document.getElementById("login")
+        .style.display = "none";
+
+        document.getElementById("website")
+        .style.display = "block";
+    }
+
+    else{
+        alert("Wrong answer 💜");
+    }
+}
