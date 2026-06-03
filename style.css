@@ -62,21 +62,13 @@ img{
     display:flex;
     flex-direction:column;
 
-    justify-content:center;
     align-items:center;
+
+    justify-content:flex-start;
 
     text-align:center;
 
-    gap:15px;
-}
+    gap:20px;
 
-#login input{
-    padding:12px;
-    border-radius:10px;
-}
-
-#login button{
-    padding:12px 20px;
-    border-radius:10px;
-    cursor:pointer;
+    padding:80px 20px;
 }
