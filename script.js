@@ -18,20 +18,8 @@ function checkPassword(){
 }
 
 function togglePassword(){
-
-    const passwordField =
-    document.getElementById("password");
-
-    if(passwordField.type === "password"){
-
-        passwordField.type = "text";
-
-    } else {
-
-        passwordField.type = "password";
-
-    }
-}
+    alert("clicked");
+} 
 
 const reveals = document.querySelectorAll(".reveal");
 
