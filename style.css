@@ -91,7 +91,7 @@ body{
     justify-content:center;
     align-items:center;
 
-    background: url("./login-bg.jpg");
+    background: url("./login-bg.png");
     background-size: cover;
     background-position: center;
 }
