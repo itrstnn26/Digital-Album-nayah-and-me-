@@ -87,13 +87,15 @@ body{
 
 #login{
     min-height:100vh;
+
     display:flex;
     justify-content:center;
     align-items:center;
 
-    background: url("./login-bg.png");
+    background-image: url("./login-bg.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #website{
