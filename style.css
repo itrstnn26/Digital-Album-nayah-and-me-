@@ -25,10 +25,6 @@ p{
     line-height:1.8;
 }
 
-#login{
-    background: red !important;
-}
-
 img{
     width:250px;
     max-width:90%;
@@ -130,4 +126,8 @@ body{
         opacity:1;
         transform: translateY(0);
     }
+
+}
+#login{
+    background: red !important;
 }
