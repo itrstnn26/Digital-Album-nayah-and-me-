@@ -91,14 +91,14 @@ body{
     justify-content:center;
     align-items:center;
 
-    background: url("./paper-bg.jpg");
+    background: url("./paper.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #website{
     min-height:100vh;
-    background: url("./paper-bg.jpg");
+    background: url("./paper.jpg");
     background-size: cover;
     background-position: center;
 }
