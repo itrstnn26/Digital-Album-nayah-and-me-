@@ -17,10 +17,6 @@ function checkPassword(){
     }
 }
 
-function togglePassword(){
-    alert("clicked");
-} 
-
 const reveals = document.querySelectorAll(".reveal");
 
 window.addEventListener("scroll", () => {
