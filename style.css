@@ -102,3 +102,26 @@ body{
     background-size: cover;
     background-position: center;
 }
+#login{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background-image: url("./paper.jpg");
+    background-size: cover;
+    background-position: center;
+
+    /* ✨ animation */
+    opacity:0;
+    transform: translateY(40px);
+    animation: fadeUp 1.2s ease forwards;
+}
+
+@keyframes fadeUp{
+    to{
+        opacity:1;
+        transform: translateY(0);
+    }
+}
