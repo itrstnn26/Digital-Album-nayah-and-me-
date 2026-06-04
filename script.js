@@ -1,19 +1,31 @@
-function checkPassword(){
+let pin = "";
 
-    const password =
-    document.getElementById("password").value;
+function pressKey(num){
 
-    if(password === "022625"){
+    if(pin.length < 6){
+        pin += num;
+        document.getElementById("pin-display").innerText = pin;
+    }
+}
+
+function clearPin(){
+    pin = "";
+    document.getElementById("pin-display").innerText = "____";
+}
+
+function checkPin(){
+
+    if(pin === "022625"){ // your anniversary PIN
 
         document.getElementById("login")
         .style.display = "none";
 
         document.getElementById("website")
         .style.display = "block";
-    }
 
-    else{
-        alert("Wrong answer 💜");
+    } else {
+        alert("Wrong PIN 💜");
+        clearPin();
     }
 }
 
