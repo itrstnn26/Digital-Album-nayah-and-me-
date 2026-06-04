@@ -99,7 +99,7 @@ body{
     justify-content:center;
     align-items:center;
 
-    background-image: url("./login.png");
+    background-image: url("./login-bg.png");
     background-size: cover;
     background-position: center;
 
@@ -114,3 +114,14 @@ body{
         opacity:1;
         transform: translateY(0);
 }
+
+#login{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background-image: url("./login-bg.png");
+    background-size: cover;
+    background-position: center;
