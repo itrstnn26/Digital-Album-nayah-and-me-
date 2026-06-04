@@ -80,14 +80,25 @@ img{
     text-align:center;
 }
 
-.login-card{
-    background:#fffdf7;
+body{
+    margin:0;
+    font-family: Arial;
+}
 
-    padding:40px;
+#login{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-    border-radius:20px;
+    background: url("./paper-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
-    box-shadow:0 10px 30px rgba(0,0,0,0.1);
-
-    border:2px solid #e8d5ff;
+#website{
+    min-height:100vh;
+    background: url("./paper-bg.jpg");
+    background-size: cover;
+    background-position: center;
 }
