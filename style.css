@@ -119,3 +119,14 @@ body{
     transform: translateY(40px);
     animation: fadeUp 1.2s ease forwards;
 }
+
+@media (max-width: 768px){
+
+    #login{
+        background-image: url("login-bg-mobile.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
