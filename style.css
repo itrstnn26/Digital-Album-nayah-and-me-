@@ -103,7 +103,6 @@ body{
     }
 }
 
-/* LOGIN SCREEN */
 #login{
     min-height:100vh;
 
@@ -111,7 +110,7 @@ body{
     justify-content:center;
     align-items:center;
 
-    background-image: url("./login-bg.png");
+    background-image: url("login-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
