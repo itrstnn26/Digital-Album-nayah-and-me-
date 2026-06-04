@@ -79,3 +79,15 @@ img{
     margin-bottom:15px;
     text-align:center;
 }
+
+.login-card{
+    background:#fffdf7;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+    border:2px solid #e8d5ff;
+}
