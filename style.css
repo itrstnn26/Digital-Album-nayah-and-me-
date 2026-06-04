@@ -85,25 +85,13 @@ body{
     font-family: Arial;
 }
 
-#login{
-    min-height:100vh;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    background-image: url("login-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 #website{
     min-height:100vh;
     background: url("./paper.jpg");
     background-size: cover;
     background-position: center;
 }
+
 #login{
     min-height:100vh;
 
@@ -111,7 +99,7 @@ body{
     justify-content:center;
     align-items:center;
 
-    background-image: url("./paper.jpg");
+    background-image: url("./login.png");
     background-size: cover;
     background-position: center;
 
