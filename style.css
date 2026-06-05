@@ -163,17 +163,25 @@ body{
     }
 
 }
-.login-card{
-    background: rgba(255, 255, 255, 0.15);
 
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+.login-card{
+    text-align:center;
+    padding:30px;
+}
+
+.glass-box{
+    margin-top:20px;
+
+    display:inline-block;
+    padding:20px;
 
     border-radius:20px;
 
-    padding:30px;
-
+    background: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255,255,255,0.3);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
