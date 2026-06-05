@@ -185,3 +185,13 @@ body{
 
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
+
+#login h1{
+    margin-bottom:10px;
+    color:#6a4c93;
+}
+
+#login p{
+    margin-bottom:20px;
+    color:#8b6fb3;
+}
