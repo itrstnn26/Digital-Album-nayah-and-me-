@@ -25,6 +25,17 @@ p{
     line-height:1.8;
 }
 
+#login{
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;  /* IMPORTANT */
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
 img{
     width:250px;
     max-width:90%;
