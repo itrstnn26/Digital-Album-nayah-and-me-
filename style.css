@@ -57,10 +57,10 @@ img{
 
 .keypad{
     display:grid;
-    grid-template-columns:repeat(3, 60px);
+    grid-template-columns:repeat(3, 50px);
     gap:10px;
     justify-content:center;
-    margin-top:20px;
+    margin-top:15px;
 }
 
 .keypad button{
